@@ -1,0 +1,53 @@
+@font-face{
+    font-family: "gilroy_bold";
+    src:url(./Fonts/gilroy_bold/Gilroy-Bold.ttf);
+}
+@font-face{
+    font-family: "roboto";
+    src:url(./Fonts/roboto/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    font-family: "gilroy_bold";
+    color: dimgray;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    width: 23%;
+    text-align: center;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2);
+    padding: 15px 0px;
+}
+.post:hover{
+    box-shadow: 0px 16px 32px 0px rgb(0,0,0,0.2);
+    transition: all 0.6s;
+    background-color: bisque;
+
+}
+.post h2{
+    font-size: 18px;
+    font-family: "gilroy_bold";
+    padding: 5px;
+
+}
+.post p{
+    font-size: 14px;
+    font-family: "roboto";
+    padding: 10px;
+    color: gray;
+}
